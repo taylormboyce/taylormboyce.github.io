@@ -1,62 +1,96 @@
-<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+	<!DOCTYPE html>
 <html>
     <head>
         <title>Images</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />     
+        <style>
+header {
+    background-color:grey;
+    color:black;
+    height:140px;
+    text-align:center;
+    padding:5px;
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:50px;
+    width:100%;
+    float:center;
+    text-align:center;
+    padding:5px; 
+}
+article {
+    width:100%;
+    float:left;
+    padding:10px; 
+    border: 2px solid lightgrey;
+    
+}
+article2 {
+    width:100%;
+    float:left;
+    padding:10px; 
+    border: 2px solid lightgrey;
+    
+}
+footer {
+    background-color:lightgrey;
+    color:black;
+    clear:both;
+    text-align:center;
+    padding:10px;
+    
+}
+        </style>
     </head>
     <body>
-    
-        <h1>Tag reference</h1>
-        
-        <ul>
-            <li>alpha</li>
-            <li>beta</li>
-            <li>gamma</li>
-        </ul>
-        
-        <ol>
-            <li>one</li>
-            <li>two</li>
-            <li>three</li>
-        </ol>
-        
-        <dl>
-            <dt>Term</dt>
-            <dd>Definition</dt>
-            <dt>Up</dt>
-            <dd>Upside</dd>
-            <dt>Down</dt>
-            <dd>Downside</dd>
-        </dl>
-    
-        <table border="1">
-            <tr>
-                <td>A</td>
-                <td>B</td>
-                <td>C</td>
-                <td>D</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
-            </tr>
-    </table>
-        <img src="http://img2.wikia.nocookie.net/__cb20120904160614/icarly/images/c/ca/Zoolander-zoolander-4247194-350-221.gif" width="400" alt="Zoolander" title="Derek Zoolander wants us all to learn how to read good and learn to do other stuff good too!"/>
-        
-        <p><img src="Hansel.jpg" width="400" alt="Hansel" title="Will they ever find the files?"/></p>
-        
-        <h2>Secondary heading</h2>
-        <p>This is text that I want to use for a paragraph.</p>
+         <div id="wrapper">
+        <header>
+            <img src="http://www.48hourslogo.com/48hourslogo_data/20130312/201303120945570.jpg" alt="logo" height=50> <h1>Header Text</h1>
 
-        <h2> External Links</h2>
-        <p>I want <a href="http://google.com" target="_blank" title="Google">these words</a> to be clickable and send me to Google. Tags have one <em>element</em> and zero or multiple<em> attributes</em> and <em>value</em> pairs.</p>
-        <p>It is common to use <code>target="_blank"</code> for external links. With external links, you need use <strong>absolute URLS</strong>. Absolute URLS include the full path to an object typically by utilizing <code>http://</code></p>
-        <h2>Internal Links</h2>
-        <p>Go learn more <a href="about.html">about me</a>. Internal links use <strong>relative URLs</strong>. Relative URLs just specify the name of the HTML document and any extra path information.</p>
-
-        <h2>Mailto Links</h2>
-        <p>We can make a link that will <a href="mailto@name@domain.com">send someone an email</a>.</p>
+            
+        </header>
+ 
+        
+        <nav>
+            <a href="index.html">Home</a> | 
+            <a href="#">Contact</a> | 
+            <a href="#">Commission</a> | 
+            <a href="#">Personal</a> | 
+            <a href="#">Wheel Thrown Pottery</a>
+        
+        </nav>
+       <article>
+                 <h2>Article Heading</h2>
+                    <h3>Subheading</h3>
+        Tons of body text all up in here. 
+           <br><br><img src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/10440108_10202195148459559_7845901762121368873_n.jpg?oh=351ba7afa309319a1b01d6ffce743c39&amp;oe=54F19B2E&amp;__gda__=1423905867_36f33b2b4764dd063c5956ab527ffd18" alt="Taylor" style="width:128px;height:128px">
+           <p>Photo Caption</p>
+        
+        </article>
+        </div>
+        <footer>
+            Footer
+        </footer>
+        
+        
+    
     </body>
-</html>
+        
+        
+        
+        
+        
+        
+        </html>
