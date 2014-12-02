@@ -1,6 +1,6 @@
 header {
     background-image: url(../images/wood.jpg) ;
-    position:fixed;
+    position:absolute;
     color:black;
     height:100px;
     width:100%;
@@ -33,7 +33,7 @@ article {
     width:100%;
     float:center;
     padding:10px; 
-    position:fixed;
+    position:absolute;
     font-family: 'Shadows Into Light', cursive;
     margin-right: auto;
     margin-left: auto;
@@ -68,9 +68,9 @@ photos {
   width:100%;
   padding:10px; 
   
-    float:inherit;
+  float:center;
   text-align: center;
-  position:inherit;
+  position:absolute;
 }
 
 footer {
@@ -94,3 +94,4 @@ footer p {text-align:right;
             margin-right: auto;
         
 }
+footer nav {position: fixed}
