@@ -70,7 +70,7 @@ photos {
   
     float:inherit;
   text-align: center;
-  position:fixed;
+  position:inherit;
 }
 
 footer {
