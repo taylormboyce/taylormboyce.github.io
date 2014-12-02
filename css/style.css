@@ -30,6 +30,8 @@ article {
     padding:10px; 
     border: 2px solid lightgrey;
     font-family: 'Shadows Into Light', cursive;
+    margin-right: auto;
+    margin-left: auto;
     
 }
     
@@ -37,7 +39,7 @@ article {
 
 article2 {
     width:100%;
-    float:left;
+    float:inherit;
     padding:10px; 
     border: 2px solid lightgrey;
    
@@ -47,14 +49,14 @@ photos {
   width:100%;
   padding:10px; 
   border: 2px solid lightgrey;
+    float:inherit;
   text-align: center;
   position:absolute;
 }
 
 footer {
     background-color:blanchedalmond;
-    background-image: url(images/wood.jpg);
-    color:black;
+    
     text-align:left;
     padding:10px;
     bottom:0pt;
