@@ -49,7 +49,7 @@ article {
     width:90.5%;
     float:right;
     padding:6px; 
-    padding-bottom:52%;
+    padding-bottom:0%;
     line-height: 1.8;
     position:fixed;
     font-family: 'Shadows Into Light', cursive;
@@ -58,6 +58,7 @@ article {
     margin-top:;
     margin-bottom:;
     text-align: left;
+    background-color: lavenderblush;
     
     
     
@@ -66,7 +67,7 @@ article2 { width:90.5%;
     float:center;
     padding:10px; 
     padding-top:3% ;
-    position:absolute; z-index: 1;
+    position:absolute; z-index: -1;
     font-family: 'Shadows Into Light', cursive;
     margin-right: auto;
     margin-left:5%;
