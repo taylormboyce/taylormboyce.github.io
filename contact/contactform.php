@@ -16,7 +16,7 @@ $formproc->EnableCaptcha($sim_captcha);
 
 //1. Add your email address here.
 //You can add more than one receipients.
-$formproc->AddRecipient('tests@html-form-guide.com'); //<<---Put your email address here
+$formproc->AddRecipient('tboyce@ufl.edu'); //<<---Put your email address here
 
 
 //2. For better security. Get a random tring from this link: http://tinyurl.com/randstr
