@@ -48,25 +48,34 @@ div nav{position:fixed;
 article {
     width:90.5%;
     float:right;
-    padding:10px; 
-    position:absolute;
+    padding:6px; 
+    padding-bottom:52%;
+    line-height: 1.8;
+    position:fixed;
     font-family: 'Shadows Into Light', cursive;
     margin-right: auto;
-    margin-left:;
-    margin-top:; 
+    margin-left:5%;
+    margin-top:;
+    margin-bottom:;
     text-align: left;
+    
     
     
 }
 article2 { width:90.5%;
     float:center;
     padding:10px; 
-    position:absolute;
+    padding-top:3% ;
+    position:absolute; z-index: 1;
     font-family: 'Shadows Into Light', cursive;
     margin-right: auto;
     margin-left:5%;
     margin-top: 40%; 
-    text-align: center;}
+    text-align: center;
+    
+    
+    
+}
 
 h1 {font-weight:100;
     
@@ -109,7 +118,7 @@ footer {
     text-align:left;
     padding:10px;
     bottom:0pt;
-    position:fixed;
+    position: fixed; z-index:800;
     width:100%;
 }
 footer div {
