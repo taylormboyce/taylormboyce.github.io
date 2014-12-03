@@ -1,3 +1,6 @@
+body { margin:0px; 
+       background-color: lavenderblush;
+}
 header {
     background-image: url(../images/wood.jpg) ;
     position: fixed; z-index:800;
@@ -90,11 +93,7 @@ margin-right: auto;
     
     
 }
-body {background-color: lavenderblush;
-      
-    
-                
-}
+
 
 footer {
     background-image: url(../images/wood.jpg);
