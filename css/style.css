@@ -21,7 +21,7 @@ header {
 
 nav {
    
-    background-color:;
+    
     position:relative;z-index:999;
     height:50px;
     width:100%;
@@ -55,8 +55,6 @@ article {
     font-family: 'Shadows Into Light', cursive;
     margin-right: auto;
     margin-left:5%;
-    margin-top:;
-    margin-bottom:;
     text-align: left;
     background-color: lavenderblush;
     
@@ -64,7 +62,7 @@ article {
     
 }
 article2 { width:90.5%;
-    float:center;
+    float:left;
     padding:10px; 
     padding-top:3% ;
     position:absolute; z-index: -1;
@@ -95,20 +93,16 @@ body {font-size: 25px;
    
 }
 
-     
-p {font-size: 22px;
-}
+    
 	
     
    
     
-}
-
-
+[]
 photos {
   width:1500px;
   padding:10px; 
-  float:center;
+  float:left;
   text-align: center;
   position:absolute;
 margin-right: auto;
