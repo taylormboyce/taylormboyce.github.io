@@ -72,26 +72,13 @@ article2 { width:90.5%;
     margin-right: auto;
     margin-left:5%;
     margin-top: 48%; 
+    margin-bottom: 20%;
     text-align: center;
     
     
     
 }
-article3 {width:87%;
-    float:right;
-    padding:6px; 
-    padding-bottom:0%;
-    line-height: 1.8;
-    position:absolute; z-index: -1;
-    font-family: 'Shadows Into Light', cursive;
-    margin-right: auto;
-    margin-left:5%;
-    margin-top:33%;
-    margin-bottom:20%;
-    text-align:center;
-    font-size: 30px;
-    
-}
+
 
 
 h1 {font-weight:100;
