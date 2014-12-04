@@ -46,7 +46,7 @@ div nav{position:fixed;
 }
 
 article {
-    width:90.5%;
+    width:93.5%;
     float:right;
     padding:6px; 
     padding-bottom:0%;
@@ -71,12 +71,28 @@ article2 { width:90.5%;
     font-family: 'Shadows Into Light', cursive;
     margin-right: auto;
     margin-left:5%;
-    margin-top: 40%; 
+    margin-top: 48%; 
     text-align: center;
     
     
     
 }
+article3 {width:87%;
+    float:right;
+    padding:6px; 
+    padding-bottom:0%;
+    line-height: 1.8;
+    position:absolute; z-index: -1;
+    font-family: 'Shadows Into Light', cursive;
+    margin-right: auto;
+    margin-left:5%;
+    margin-top:33%;
+    margin-bottom:20%;
+    text-align:center;
+    font-size: 30px;
+    
+}
+
 
 h1 {font-weight:100;
     
@@ -91,6 +107,7 @@ body {font-size: 25px;
     
    
 }
+
      
 p {font-size: 22px;
 }
