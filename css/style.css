@@ -80,7 +80,7 @@ article2 { width:90.5%;
     font-family: 'Shadows Into Light', cursive;
     margin-right: auto;
     margin-left:5%;
-    margin-top: 48%; 
+    margin-top: auto;
     margin-bottom: 40%;
     text-align: center;
     min-width: 100px;
@@ -98,7 +98,7 @@ article3 { width:90.5%;
     font-family: 'Shadows Into Light', cursive;
     margin-right: auto;
     margin-left:5%;
-    margin-top: 48%; 
+    margin-top: auto; 
     margin-bottom: 40%;
     text-align: center;
     min-width: 100px;
@@ -188,7 +188,7 @@ footer nav {position: fixed;z-index:999;
         padding-left: 3%;
     }
     
-    header {padding-bottom: 8px;}
+
     h1,h2 {
         text-align: center;
     
@@ -209,7 +209,7 @@ footer nav {position: fixed;z-index:999;
     nav ul {
         list-style: none;
         padding:0;
-        text-align: center;
+        text-align: left;
     }
     
     nav li {
@@ -219,7 +219,7 @@ footer nav {position: fixed;z-index:999;
     }
 
     footer nav {
-        width:100%;
+        width:90%;
     
     }
     #content {
