@@ -61,7 +61,7 @@ article {
     padding:6px; 
     padding-bottom:0%;
     line-height: 1.8;
-    position:relative;z-index: auto;
+    position:relative;z-index: 999;
     font-family: 'Shadows Into Light', cursive;
     margin-right: auto;
     margin-left:5%;
@@ -173,10 +173,7 @@ footer nav {position: fixed;z-index:999;
         text-align: center;
     
     }
-   h1,h2,h3,article2 {
-       z-index: 1;
-       
-   }
+  
     nav {
         width:95%;
         
