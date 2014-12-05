@@ -76,7 +76,7 @@ article2 { width:90.5%;
     padding:10px; 
     padding-top:3% ;
     padding-bottom: 100%;
-    position:absolute;z-index: 999;
+    position:absolute;
     font-family: 'Shadows Into Light', cursive;
     margin-right: auto;
     margin-left:5%;
@@ -194,7 +194,7 @@ footer nav {position: fixed;z-index:999;
     }
     
     article2 {
-        margin-top: 48%;
+        margin-top: 80%;
         padding-top: 55%;
         clear: both;
     }
