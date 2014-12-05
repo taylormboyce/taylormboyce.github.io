@@ -173,9 +173,10 @@ footer nav {position: fixed;z-index:999;
         text-align: center;
     
     }
-    h3 {
-        margin-bottom: 30%;
-    }
+   article,article2 {
+       z-index: 1;
+       
+   }
     nav {
         width:95%;
         
