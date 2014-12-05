@@ -152,7 +152,7 @@ footer p {text-align:right;
 footer nav {position: fixed;z-index:999;
             line-height: 90px;
             padding-top: 0%;
-            margin-top: -1%;
+            margin-top: auto;
             width:50%;
             min-width: 100px;
             text-align: center;
@@ -163,6 +163,12 @@ footer nav {position: fixed;z-index:999;
 
 @media screen and (max-width: 600px) {
     
+    body {
+        padding: 3%;
+    }
+    h1,h2 {
+        text-align: center;
+    }
     nav {
         width:95%;
         
