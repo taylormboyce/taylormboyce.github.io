@@ -211,6 +211,7 @@ footer nav {position: fixed;z-index:999;
         padding:0;
         text-align: left;
         clear: both;
+        margin-bottom: auto;
     }
     
     nav li {
@@ -220,7 +221,7 @@ footer nav {position: fixed;z-index:999;
     }
 
     footer nav {
-        width:90%;
+        width:50%;
     
     }
     #content {
