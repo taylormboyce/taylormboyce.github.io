@@ -40,6 +40,10 @@ nav {
     
 }
 
+nav ul {
+        list-style: none;
+        padding-left: 0;
+}
 
     
     
@@ -160,7 +164,17 @@ footer nav {position: fixed;z-index:999;
     nav {
         width:95%;
         
+    nav ul {
+        list-style: none;
+        padding:0;
+        text-align: center;
+    }
     
+    nav li {
+        display: inline;
+        margin-right: 10px;
+        
+    }
     
     }
     footer nav {
