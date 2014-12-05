@@ -187,6 +187,8 @@ footer nav {position: fixed;z-index:999;
     body {
         padding-left: 3%;
     }
+    
+    header {padding-bottom: 8px;}
     h1,h2 {
         text-align: center;
     
@@ -197,7 +199,7 @@ footer nav {position: fixed;z-index:999;
         width:95%;
     }
     
-    h1{
+    h1,h2,h3{
         margin-top: 30%;
     
     }
