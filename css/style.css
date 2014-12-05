@@ -185,15 +185,21 @@ footer nav {position: fixed;z-index:999;
 @media screen and (max-width: 700px) {
     
     body {
-        padding: 3%;
+        padding-left: 3%;
     }
     h1,h2 {
         text-align: center;
     
     }
+
   
     nav {
         width:95%;
+    }
+    
+    h1{
+        margin-top: 30%;
+    
     }
     
     article2 {
@@ -216,7 +222,7 @@ footer nav {position: fixed;z-index:999;
     }
 
     footer nav {
-        width:1%;
+        width:100%;
     
     }
     #content {
