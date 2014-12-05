@@ -38,11 +38,13 @@ nav {
     
     
     
+    
 }
 
 nav ul {
         list-style: none;
         padding-left: 0;
+        border 5px;
 }
 nav li {
     display: inline;
@@ -64,7 +66,7 @@ article {
     margin-right: auto;
     margin-left:5%;
     text-align: left;
-    background-color: lavenderblush;
+    
     
     
     
@@ -81,7 +83,7 @@ article2 { width:90.5%;
     margin-top: 48%; 
     margin-bottom: 40%;
     text-align: center;
-    
+    min-width: 100px;
     
     
 }
@@ -102,7 +104,7 @@ margin-right: auto;
 
 
 h1 {font-weight:100;
-    
+    border: 5px;
     
     
 }
