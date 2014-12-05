@@ -88,6 +88,24 @@ article2 { width:90.5%;
     
     
 }
+
+article3 { width:90.5%;
+    float:left;
+    padding:10px; 
+    padding-top:3% ;
+    padding-bottom: 100%;
+    position:relative;
+    font-family: 'Shadows Into Light', cursive;
+    margin-right: auto;
+    margin-left:5%;
+    margin-top: 48%; 
+    margin-bottom: 40%;
+    text-align: center;
+    min-width: 100px;
+    
+    
+    
+}
 .photos {
   width:1500px;
   padding:10px; 
@@ -180,6 +198,10 @@ footer nav {position: fixed;z-index:999;
     
     article2 {
         margin-top: 240%;
+    }
+    
+    article3 {
+        margin-top: 110%;
     }
     nav ul {
         list-style: none;
