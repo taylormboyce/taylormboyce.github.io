@@ -76,7 +76,7 @@ article2 { width:90.5%;
     padding:10px; 
     padding-top:3% ;
     padding-bottom: 100%;
-    position:absolute;
+    position:absolute;z-index: 1;
     font-family: 'Shadows Into Light', cursive;
     margin-right: auto;
     margin-left:5%;
