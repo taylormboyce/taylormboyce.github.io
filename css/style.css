@@ -173,7 +173,7 @@ footer nav {position: fixed;z-index:999;
         text-align: center;
     
     }
-   article,article2 {
+   h1,h2,h3,article2 {
        z-index: 1;
        
    }
