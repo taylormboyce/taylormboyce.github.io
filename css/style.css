@@ -166,6 +166,7 @@ footer p {text-align:right;
             margin-left:75%;
             padding:0px;
             line-height:60%;
+            width: auto;
             
             
             
@@ -211,7 +212,7 @@ footer nav {position: fixed;
         padding:0;
         text-align: left;
         clear: both;
-        margin-bottom: 10px;
+        margin-top: -3%;
     }
     
     nav li {
