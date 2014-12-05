@@ -30,6 +30,7 @@ nav {
     padding:5px; 
     font-family: 'Shadows Into Light', cursive;
     font-size: 30px;
+    min-width: 100px;
     margin-right: auto;
     margin-left: auto;
     
@@ -51,7 +52,7 @@ article {
     padding:6px; 
     padding-bottom:0%;
     line-height: 1.8;
-    position:fixed;
+    position:relative;
     font-family: 'Shadows Into Light', cursive;
     margin-right: auto;
     margin-left:5%;
@@ -143,8 +144,26 @@ footer nav {position: fixed;
             padding-top: 0%;
             margin-top: -1%;
             width:50%;
+            min-width: 100px;
             text-align: center;
             margin-left: 24.5%;
             
             
+}
+
+@media screen and (max-width: 600px) {
+    
+    nav {
+        width:90%;
+    
+    
+    
+    }
+    
+    #content {
+        
+        width:90%;
+        clear:left;
+        
+    }
 }
