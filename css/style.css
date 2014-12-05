@@ -80,7 +80,7 @@ article2 { width:90.5%;
     font-family: 'Shadows Into Light', cursive;
     margin-right: auto;
     margin-left:5%;
-    margin-top: auto;
+    margin-top: 20%;
     margin-bottom: 40%;
     text-align: center;
     min-width: 100px;
@@ -170,7 +170,7 @@ footer p {text-align:right;
             
             
         }
-footer nav {position: fixed;z-index:999;
+footer nav {position: fixed;
             line-height: 90px;
             padding-top: 0%;
             margin-top: auto;
@@ -211,7 +211,7 @@ footer nav {position: fixed;z-index:999;
         padding:0;
         text-align: left;
         clear: both;
-        margin-bottom: auto;
+        margin-bottom: 10px;
     }
     
     nav li {
