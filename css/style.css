@@ -61,7 +61,7 @@ article {
     padding:6px; 
     padding-bottom:0%;
     line-height: 1.8;
-    position:relative;
+    position:absolute;
     font-family: 'Shadows Into Light', cursive;
     margin-right: auto;
     margin-left:5%;
